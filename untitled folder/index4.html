@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hyper-karting 4</title>
+</head>
+<body>
+    <div class='bg-black grid w-full pt-5 pb-5 sm:hidden'>
+        <img src='../images/hyperkaring_logo.png' alt="logo" class="place-self-center"/>
+      </div>
+    <div class="sm:bg-[url('../images/hyperkating_bg.jpg')] bg-no-repeat bg-cover bg-gray-100 fixed sm:top-[0] top-[75px] inset-0 z-[-1] overflow-auto">
+        <div class="p-5 sm:p-0 sm:py-10 sm:min-h-full flex items-center justify-center">
+            <div class="p-5 flex flex-col bg-white rounded-xl shadow-sm sm:max-w-[550px] w-full sm:mx-auto sm:p-12">
+                <div class="text-black text-2xl font-semibold mb-2.5 sm:text-center">
+                    Registration Now
+                </div>
+                <div class="sm:mb-7 mb-5 font-normal text-base text-gray-500 sm:text-center">Create your profile with Hyper Karting To...</div>
+                
+                <div class="flex items-center mb-7">    
+                    <div class="flex items-center text-gray-500 relative cursor-pointer">
+                        <div class="rounded-full transition duration-500 ease-in-out h-14 w-14 py-3 border-2 border-white flex items-center justify-center bg-lime-500">
+                            <img src="../images/Icon.svg" />
+                        </div>
+                    </div>
+                    <div class="flex-auto h-2.5 transition duration-500 ease-in-out bg-lime-500 h-2.5"></div>
+                    <div class="flex items-center text-gray-500 relative cursor-auto">
+                        <div class="rounded-full transition duration-500 ease-in-out h-14 w-14 py-3 border-2 border-white flex items-center justify-center bg-gray-300">
+                            <img src="../images/Icon.svg" />
+                        </div>
+                    </div>                    
+                    <div class="flex-auto h-2.5 transition duration-500 ease-in-out bg-gray-300 h-2.5"></div>                    
+                    <div class="flex items-center text-gray-500 relative cursor-auto">
+                        <div class="rounded-full transition duration-500 ease-in-out h-14 w-14 py-3 border-2 border-white flex items-center justify-center bg-gray-300">
+                            <img src="../images/Icon.svg" />
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="text-xl text-center font-semibold ">Create your account</div>
+
+                <div class="border rounded-[10px] border-[#e5e5e5] overflow-hidden mt-[30px]">
+                    <div class="bg-[#f0faec] py-[15px] px-[10px] mb-[16px] flex items-center justify-between">
+                        <span class="text-base leading-5">Guardian Details:</span>
+                    </div>
+                    <div class="px-[20px] pb-[20px]">
+                        <div class="flex items-center justify-between flex-wrap">
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">First Name</label>
+                                <input 
+                                    type="text"
+                                    placeholder="Rob"
+                                    class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500 "
+                                />
+                            </div>
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Last Name</label>
+                                <input 
+                                type="text"
+                                placeholder="Rob"
+                                class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between flex-wrap">
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Date of Birth</label>
+                                <input 
+                                type="date"
+                                placeholder="DD/MM/YYYY"
+                                class="appearance-none border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Mobile Phone</label>
+                                <input 
+                                type="number"
+                                placeholder="+91 1234567890"
+                                class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                        </div>
+                        <div class="flex flex-col mt-4">
+                            <label class="text-base	leading-5 mb-[10px]">Address</label>
+                            <textarea placeholder="Address" class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500 min-h-[130px] resize-none"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border rounded-[10px] border-[#e5e5e5] overflow-hidden mt-[30px]">
+                    <div class="bg-[#F7F5FE] py-[15px] px-[10px] flex items-center justify-between">
+                        <span class="text-base leading-5">Junior Details:</span>
+                    </div>
+                    <div class="px-[20px] pb-[20px]">
+                        <div class="flex items-center justify-between flex-wrap">
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">First Name</label>
+                                <input 
+                                    type="text"
+                                    placeholder="Rob"
+                                    class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500 "
+                                />
+                            </div>
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Last Name</label>
+                                <input 
+                                type="text"
+                                placeholder="Rob"
+                                class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between flex-wrap">
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Date of Birth</label>
+                                <input 
+                                type="date"
+                                placeholder="DD/MM/YYYY"
+                                class="appearance-none border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Gender</label>
+                                <input 
+                                type="text"
+                                placeholder="Male"
+                                class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border rounded-[10px] border-[#e5e5e5] overflow-hidden mt-[30px]">
+                    <div class="bg-[#F7F5FE] py-[15px] px-[10px] flex items-center justify-between">
+                        <span class="text-base leading-5">Junior Details:</span>
+                        <span class="w-[19px] h-[19px] cursor-pointer"><img src="../images/colse.svg" /></span>
+                    </div>
+                    <div class="px-[20px] pb-[20px]">
+                        <div class="flex items-center justify-between flex-wrap">
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">First Name</label>
+                                <input 
+                                    type="text"
+                                    placeholder="Rob"
+                                    class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500 "
+                                />
+                            </div>
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Last Name</label>
+                                <input 
+                                type="text"
+                                placeholder="Rob"
+                                class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between flex-wrap">
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Date of Birth</label>
+                                <input 
+                                type="date"
+                                placeholder="DD/MM/YYYY"
+                                class="appearance-none border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                            <div class="flex flex-col w-full sm:w-[calc(50%_-_10px)] mt-4">
+                                <label class="text-base	leading-5 mb-[10px]">Gender</label>
+                                <input 
+                                type="text"
+                                placeholder="Male"
+                                class="border border-slate-200 rounded-lg py-3 px-4 outline-0 text-base text-slate-500"
+                            />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-[30px] relative flex items-center">
+                    <img class="absolute left-[16px] z-[2]" src="../images/user-icon.svg" />
+                     <input 
+                     type="text"
+                     placeholder="Add another Junior"
+                     class="outline-0 text-sm text-[#636266] border rounded-[5px] border-[#E9E9E9] bg-[#F7F5FE] pr-[86px] pl-[40px] py-[14px] w-full z-[1] relative"
+                 />
+                 <button
+                    class=" absolute right-[3px] z-[3] text-center self-center items-center py-2 px-[24px] border border-transparent text-medium font-semibold rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                    >Add</button>
+                </div>
+
+                <div class="mt-[20px] flex items-center mb-[30px]">
+                    <input
+                        type="checkbox"
+                        name="tcs_agreed"
+                        class="w-4 h-4 mr-2.5 cursor-pointer"
+                        id="memberships"
+                    />
+                    <label for="memberships" class="text-[#666666] text-base leading-5 ̣font-normal">Interested in events + Memberships</label>                
+                </div>
+
+                <div class="text-xl	mb-3 font-semibold">Terms and Conditions</div>
+                <div class="flex mb-2.5">
+                  <div class="w-2.5 h-2.5 mr-2.5 mt-1.5">
+                    <div class="bg-indigo-600 w-2.5 h-2.5 rounded-full"></div>
+                  </div>
+                  <p class="font-normal	text-sm	uppercase text-[#374151]">
+                    To Participate in the activity of karting you must read and sign the
+                    following:
+                  </p>
+                </div>
+                
+                <p class="font-normal text-sm text-[#374151] pl-[20px] mb-[30px]">Risk Warning and acknowledgement i am the participant named above and in consideration of Hyper Karting Pty Ltd (“the Provider”) providing services and/or equipment to enable me to</p>
+
+                <div class="sigCanvas outline-0 text-base border rounded-xl resize-none h-[130px]">Signature</div>
+
+                <div class="mt-[20px] flex items-center">
+                    <input
+                        type="checkbox"
+                        name="tcs_agreed"
+                        class="w-4 h-4 mr-2.5 cursor-pointer"
+                        id="heyper"
+                    />
+                    <label for="heyper" class="text-[#666666] text-base leading-5 ̣font-normal">Hyper Karting terms and conditions</label>                
+                </div>
+
+                <div class="mt-[16px] flex items-center">
+                    <input
+                        type="checkbox"
+                        name="tcs_agreed"
+                        class="w-4 h-4 mr-2.5 cursor-pointer"
+                        id="cookies"
+                    />
+                    <label for="cookies" class="text-[#666666] text-base leading-5 ̣font-normal">Race Facer T&Cs, Privacy, Cookies</label>                
+                </div>
+
+                <div class="text-center mt-[40px]">
+                    <button
+                    class="text-center self-center items-center p-2 border border-transparent text-medium font-semibold rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 sm:min-w-[335px] min-w-[100%]">Create Driver</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
